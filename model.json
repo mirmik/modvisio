@@ -17,7 +17,21 @@
         },
         { 
             "name" : "arm0",
-            "pose" : { "lin" : [0,0,1], "ang" : [0,1.3,0] },
+            "pose" : { "lin" : [0,0,1], "ang" : [0,0,0] },
+            "visual" : 
+            [
+                {
+                    "geometry" : "cylinder",
+                    "radius" : 0.3,
+                    "height" : 1,
+                    "color" : [1,0,0,1]
+                }
+            ],
+            "crow_theme_json" : "ctrpanel/arm0_pose"
+        },
+        { 
+            "name" : "arm1",
+            "pose" : { "lin" : [0,0,2], "ang" : [0,0,0] },
             "visual" : 
             [
                 {
